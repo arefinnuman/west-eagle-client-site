@@ -56,11 +56,11 @@ const NavBar = () => {
           </ul>
         </div>
         <Link className="btn btn-ghost  normal-case text-xl">
-          <img className="w-12 h-12 mr-4" src={logo} alt="" />
+          <img className="w-12 h-12 mr-2" src={logo} alt="" />
+          <span className="uppercase text-secondary font-bold text-sm">
+            Believe you can
+          </span>
         </Link>
-        <span className="uppercase text-secondary font-bold">
-          Believe you can
-        </span>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navBarItems}</ul>
