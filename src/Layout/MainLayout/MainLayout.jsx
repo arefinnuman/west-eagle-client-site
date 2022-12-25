@@ -9,8 +9,8 @@ const MainLayout = () => {
       <div className="max-w-[1440px] mx-auto">
         <NavBar />
         <Outlet />
+        <Footer />
       </div>
-      <Footer />
     </React.Fragment>
   );
 };
