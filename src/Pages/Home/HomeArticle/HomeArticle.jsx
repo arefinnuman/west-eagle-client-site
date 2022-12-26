@@ -10,17 +10,17 @@ const HomeArticle = () => {
           alt=""
           className="w-full"
         />
-        <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md dark:bg-primary text-center">
+        <div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-xl dark:bg-base-100 border shadow-2xl   text-center">
           <div className="space-y-2">
             <Link
               rel="noopener noreferrer"
               href="#"
-              className="inline-block text-2xl font-semibold text-white sm:text-3xl uppercase"
+              className="inline-block text-2xl font-semibold  sm:text-3xl uppercase"
             >
               It's not about the name on the back of the jersey. Its about the
               badge on the front.
             </Link>
-            <p className="text-xs text-white">
+            <p className="text-xs italic">
               <Link
                 rel="noopener noreferrer"
                 href="#"
